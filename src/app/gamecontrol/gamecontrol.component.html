@@ -1,0 +1,7 @@
+<div class="col-xs-12">
+  <button class="btn btn-primary" (click)="startGame()">Start</button>
+  <button class="btn btn-danger" (click)="stopGame()">Stop</button>
+</div>
+
+<app-odd *ngFor="let oddNumber of oddNumbers" [currentInterval]="oddNumber"></app-odd>
+<app-even *ngFor="let evenNumber of evenNumbers" [currentInterval]="evenNumber"></app-even>

@@ -7,7 +7,7 @@ import { UserService } from '../services/user.service';
   styleUrls: ['./active-users.component.css']
 })
 export class ActiveUsersComponent {
-  users: string[];
+  @Input() users: string[];
 
   constructor(private userService: UserService){
 

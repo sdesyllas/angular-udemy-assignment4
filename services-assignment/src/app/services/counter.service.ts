@@ -11,11 +11,11 @@ export class CounterService {
 
   incrementActiveToInactive() {
     this.activeToInactiveCounter++;
-    console.log(this.activeToInactiveCounter);
+    console.log('Active to inactive :'+this.activeToInactiveCounter);
   }
 
   incrementInactiveToActive() {
     this.inactiveToActiveCounter++;
-    console.log(this.inactiveToActiveCounter);
+    console.log('Inactive to active :'+this.inactiveToActiveCounter);
   }
 }
